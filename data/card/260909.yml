@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.2.6"
   latestRelease: "v3.2.6"
   latestPrerelease: "v3.0.9-rc1"
-  collectedAt: 2026-09-09T06:02:12Z
+  collectedAt: 2026-09-09T20:41:47Z
 timeline:
   created: 2012-06-01
   lastCommit: 2026-07-25
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-03-13
   lastPrerelease: 2022-05-05
 popularity:
-  star: 4476
+  star: 4477
   watcher: 136
   fork: 1231
   release: 29
@@ -84,7 +84,7 @@ total:
   commit: 2966
 ---
 path: /home/runner/.x-repo/github.com/OpenVPN/easy-rsa
-collectedAt: 2026-09-09T06:02:18Z
+collectedAt: 2026-09-09T20:41:58Z
 loc:
   Sh:
     code: 6253
