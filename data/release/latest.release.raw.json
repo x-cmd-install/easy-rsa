@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4027654,
       "digest": "sha256:b0ab77b70cdbf511e2e34777f4e82a263cc3850ba7dd557c016f809b4703ec65",
-      "download_count": 1848,
+      "download_count": 1856,
       "created_at": "2026-03-13T21:19:38Z",
       "updated_at": "2026-03-13T21:19:39Z",
       "browser_download_url": "https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6-win32.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 310,
       "digest": "sha256:37c667064357c0a2af4b182b1235b0df567dac9c31ad29fe8c0f7cf18c006e47",
-      "download_count": 83,
+      "download_count": 84,
       "created_at": "2026-03-13T21:19:39Z",
       "updated_at": "2026-03-13T21:19:40Z",
       "browser_download_url": "https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6-win32.zip.sig"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 4388642,
       "digest": "sha256:1629b6f1cd4b866d311910b35a570493f8d52e5cb031f93776c199a14ca4c96d",
-      "download_count": 12641,
+      "download_count": 12672,
       "created_at": "2026-03-13T21:19:40Z",
       "updated_at": "2026-03-13T21:19:41Z",
       "browser_download_url": "https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6-win64.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 310,
       "digest": "sha256:228aa68ccefdc86f3fb0dbb571e48d2acb6dcd36c8cc4f38f4280939dd667ee5",
-      "download_count": 247,
+      "download_count": 248,
       "created_at": "2026-03-13T21:19:41Z",
       "updated_at": "2026-03-13T21:19:41Z",
       "browser_download_url": "https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6-win64.zip.sig"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 93543,
       "digest": "sha256:c2572990ce91112eef8d1b8e4a3b58790da95b68501785c621f69121dfbd22d7",
-      "download_count": 213894,
+      "download_count": 214562,
       "created_at": "2026-03-13T21:19:41Z",
       "updated_at": "2026-03-13T21:19:41Z",
       "browser_download_url": "https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6.tgz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 310,
       "digest": "sha256:0dc0a0dfb5b436e8bdfafd17f1c98ec2fed6d8135f0dd4feb38ae5a3c43bc6fb",
-      "download_count": 574,
+      "download_count": 575,
       "created_at": "2026-03-13T21:19:41Z",
       "updated_at": "2026-03-13T21:19:41Z",
       "browser_download_url": "https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6.tgz.sig"
