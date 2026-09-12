@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,478 · **Forks**: 1,231 · **Open issues**: 712 · **Contributors**: 67
+- **Stars**: 4,479 · **Forks**: 1,231 · **Open issues**: 713 · **Contributors**: 67
 
 ## Totals (cumulative)
 
-- **Releases**: 29 · **Merged PRs**: 486 · **Open PRs**: 8 · **Closed issues**: 697 · **Open issues**: 15 · **Commits**: 2966
+- **Releases**: 29 · **Merged PRs**: 486 · **Open PRs**: 8 · **Closed issues**: 697 · **Open issues**: 16 · **Commits**: 2966
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 0 | 2 | 0 | 3 | 0 |
-| last60d | 2026-07-13 | 0 | 4 | 2 | 4 | 5 | 15 |
-| 90d | 2026-06-13 | 0 | 4 | 2 | 4 | 5 | 15 |
-| last180d | 2026-03-15 | 0 | 5 | 4 | 5 | 5 | 16 |
-| 360d | 2025-09-16 | 2 | 23 | 8 | 23 | 10 | 143 |
-| last720d | 2024-09-21 | 5 | 93 | 8 | 107 | 11 | 560 |
+| 30d | 2026-08-13 | 0 | 0 | 2 | 0 | 4 | 0 |
+| last60d | 2026-07-14 | 0 | 4 | 2 | 4 | 6 | 15 |
+| 90d | 2026-06-14 | 0 | 4 | 2 | 4 | 6 | 15 |
+| last180d | 2026-03-16 | 0 | 5 | 4 | 5 | 6 | 16 |
+| 360d | 2025-09-17 | 2 | 23 | 8 | 23 | 11 | 143 |
+| last720d | 2024-09-22 | 5 | 92 | 8 | 103 | 12 | 560 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for easy-rsa lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T19:12:30Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T05:48:54Z._
