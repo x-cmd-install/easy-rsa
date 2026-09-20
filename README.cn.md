@@ -4,7 +4,7 @@
 
 easy-rsa - Simple shell based CA utility
 
-![easy-rsa](https://repo.x-cmd.io/easy-rsa.svg?lang=zh)
+[![x-cmd/install — easy-rsa Code Quality Monitoring Repo Card](https://repo.x-cmd.io/easy-rsa.svg?lang=zh)](https://x-cmd.com/install/easy-rsa)
 
 ## 安装
 
@@ -40,8 +40,8 @@ x install easy-rsa
 
 ## 发布
 
-- **最新版本**: `v3.2.6` (2026-03-13)
-- **最近提交**: 2026-09-17
+- **最新版本**: `v3.2.7` (2026-09-19)
+- **最近提交**: 2026-09-19
 - **Release 含资产**: 6 个
 
 ## 流行度
@@ -50,29 +50,29 @@ x install easy-rsa
 
 ## 累计统计
 
-- **发布数**: 29 · **已合并 PR**: 487 · **开放 PR**: 8 · **已关闭 issue**: 698 · **开放 issue**: 16 · **提交数**: 2969
+- **发布数**: 30 · **已合并 PR**: 487 · **开放 PR**: 8 · **已关闭 issue**: 698 · **开放 issue**: 16 · **提交数**: 2970
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 1 | 2 | 1 | 4 | 1 |
-| last60d | 2026-07-20 | 0 | 2 | 2 | 3 | 5 | 3 |
-| 90d | 2026-06-20 | 0 | 5 | 2 | 5 | 6 | 16 |
-| last180d | 2026-03-22 | 0 | 6 | 4 | 6 | 6 | 17 |
-| 360d | 2025-09-23 | 2 | 24 | 8 | 24 | 11 | 144 |
-| last720d | 2024-09-28 | 5 | 93 | 8 | 101 | 12 | 560 |
+| 30d | 2026-08-21 | 1 | 1 | 2 | 1 | 4 | 2 |
+| last60d | 2026-07-22 | 1 | 1 | 2 | 1 | 5 | 4 |
+| 90d | 2026-06-22 | 1 | 5 | 2 | 5 | 6 | 17 |
+| last180d | 2026-03-24 | 1 | 6 | 4 | 6 | 6 | 18 |
+| 360d | 2025-09-25 | 3 | 24 | 8 | 24 | 11 | 145 |
+| last720d | 2024-09-30 | 6 | 92 | 8 | 100 | 12 | 561 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [EasyRSA-3.2.6-win32.zip](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6-win32.zip) | 3.8 MiB | `native/win/x64` |
-| [EasyRSA-3.2.6-win32.zip.sig](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6-win32.zip.sig) | 310 B | `native/win/x64` |
-| [EasyRSA-3.2.6-win64.zip](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6-win64.zip) | 4.2 MiB | `native/win/x64` |
-| [EasyRSA-3.2.6-win64.zip.sig](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6-win64.zip.sig) | 310 B | `native/win/x64` |
-| [EasyRSA-3.2.6.tgz](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6.tgz) | 91.4 KiB | `native/unknown` |
-| [EasyRSA-3.2.6.tgz.sig](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.6/EasyRSA-3.2.6.tgz.sig) | 310 B | `other` |
+| [EasyRSA-3.2.7-win32.zip](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.7/EasyRSA-3.2.7-win32.zip) | 3.8 MiB | `native/win/x64` |
+| [EasyRSA-3.2.7-win32.zip.sig](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.7/EasyRSA-3.2.7-win32.zip.sig) | 310 B | `native/win/x64` |
+| [EasyRSA-3.2.7-win64.zip](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.7/EasyRSA-3.2.7-win64.zip) | 4.2 MiB | `native/win/x64` |
+| [EasyRSA-3.2.7-win64.zip.sig](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.7/EasyRSA-3.2.7-win64.zip.sig) | 310 B | `native/win/x64` |
+| [EasyRSA-3.2.7.tgz](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.7/EasyRSA-3.2.7.tgz) | 91.9 KiB | `native/unknown` |
+| [EasyRSA-3.2.7.tgz.sig](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.7/EasyRSA-3.2.7.tgz.sig) | 310 B | `other` |
 
 ## 改进这些数据
 
@@ -83,4 +83,4 @@ easy-rsa 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T06:03:10Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T06:03:05Z._
