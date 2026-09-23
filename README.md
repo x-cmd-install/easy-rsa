@@ -4,7 +4,7 @@
 
 easy-rsa - Simple shell based CA utility
 
-[![x-cmd/install — easy-rsa Code Quality Monitoring Repo Card](https://repo.x-cmd.io/easy-rsa.svg)](https://x-cmd.com/install/easy-rsa)
+[![x-cmd/install — easy-rsa Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/easy-rsa.svg)](https://x-cmd.com/install/easy-rsa)
 
 ## Install
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 1 | 2 | 1 | 4 | 2 |
-| last60d | 2026-07-24 | 1 | 1 | 2 | 1 | 5 | 2 |
-| 90d | 2026-06-24 | 1 | 5 | 2 | 5 | 6 | 17 |
-| last180d | 2026-03-26 | 1 | 6 | 4 | 6 | 6 | 18 |
-| 360d | 2025-09-27 | 3 | 23 | 8 | 24 | 11 | 128 |
-| last720d | 2024-10-02 | 6 | 92 | 8 | 100 | 12 | 557 |
+| 30d | 2026-08-24 | 1 | 1 | 2 | 1 | 4 | 2 |
+| last60d | 2026-07-25 | 1 | 1 | 2 | 1 | 5 | 2 |
+| 90d | 2026-06-25 | 1 | 5 | 2 | 5 | 6 | 17 |
+| last180d | 2026-03-27 | 1 | 6 | 4 | 6 | 6 | 18 |
+| 360d | 2025-09-28 | 3 | 23 | 8 | 24 | 11 | 128 |
+| last720d | 2024-10-03 | 6 | 92 | 8 | 100 | 12 | 554 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for easy-rsa lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:19:52Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:22:12Z._
