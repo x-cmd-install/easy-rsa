@@ -14,11 +14,11 @@ x install easy-rsa
 
 ## Code insight
 
-Total: **6,287** lines of code across **24** files in the top 5 languages.
+Total: **6,305** lines of code across **24** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Sh | 6,257 | 1,415 | 976 | 6 |
+| Sh | 6,275 | 1,421 | 977 | 6 |
 | Batch | 30 | 3 | 6 | 2 |
 | Markdown | 0 | 1,017 | 418 | 12 |
 | Text | 0 | 591 | 135 | 4 |
@@ -41,27 +41,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.2.7` (2026-09-19)
-- **Last commit**: 2026-09-19
+- **Last commit**: 2026-09-27
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 4,480 · **Forks**: 1,232 · **Open issues**: 715 · **Contributors**: 67
+- **Stars**: 4,481 · **Forks**: 1,232 · **Open issues**: 716 · **Contributors**: 67
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 487 · **Open PRs**: 9 · **Closed issues**: 698 · **Open issues**: 17 · **Commits**: 2970
+- **Releases**: 30 · **Merged PRs**: 488 · **Open PRs**: 9 · **Closed issues**: 699 · **Open issues**: 17 · **Commits**: 2974
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 1 | 1 | 3 | 1 | 5 | 2 |
-| last60d | 2026-07-29 | 1 | 1 | 3 | 1 | 6 | 2 |
-| 90d | 2026-06-29 | 1 | 5 | 3 | 5 | 7 | 17 |
-| last180d | 2026-03-31 | 1 | 6 | 5 | 6 | 7 | 18 |
-| 360d | 2025-10-02 | 3 | 23 | 9 | 23 | 12 | 117 |
-| last720d | 2024-10-07 | 6 | 92 | 9 | 100 | 13 | 554 |
+| 30d | 2026-08-29 | 1 | 2 | 2 | 2 | 5 | 4 |
+| last60d | 2026-07-30 | 1 | 2 | 3 | 2 | 6 | 4 |
+| 90d | 2026-06-30 | 1 | 6 | 3 | 6 | 7 | 19 |
+| last180d | 2026-04-01 | 1 | 7 | 5 | 7 | 7 | 20 |
+| 360d | 2025-10-03 | 3 | 24 | 9 | 23 | 12 | 119 |
+| last720d | 2024-10-08 | 6 | 93 | 9 | 100 | 13 | 558 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for easy-rsa lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:16:23Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T06:23:08Z._
