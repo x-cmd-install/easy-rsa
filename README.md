@@ -14,11 +14,11 @@ x install easy-rsa
 
 ## Code insight
 
-Total: **6,305** lines of code across **24** files in the top 5 languages.
+Total: **6,298** lines of code across **24** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Sh | 6,275 | 1,421 | 977 | 6 |
+| Sh | 6,268 | 1,422 | 978 | 6 |
 | Batch | 30 | 3 | 6 | 2 |
 | Markdown | 0 | 1,017 | 418 | 12 |
 | Text | 0 | 591 | 135 | 4 |
@@ -29,8 +29,8 @@ Overall score: **3.4 / 10**
 
 Lowest-scoring checks:
 
-- **Binary-Artifacts** (0/10) — binaries present in source code
-- **Code-Review** (0/10) — Found 1/12 approved changesets -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (0/10) — Found 1/11 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
@@ -41,27 +41,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.2.7` (2026-09-19)
-- **Last commit**: 2026-09-27
+- **Last commit**: 2026-09-28
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 4,481 · **Forks**: 1,232 · **Open issues**: 716 · **Contributors**: 67
+- **Stars**: 4,480 · **Forks**: 1,232 · **Open issues**: 717 · **Contributors**: 67
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 488 · **Open PRs**: 9 · **Closed issues**: 699 · **Open issues**: 17 · **Commits**: 2974
+- **Releases**: 30 · **Merged PRs**: 489 · **Open PRs**: 8 · **Closed issues**: 700 · **Open issues**: 17 · **Commits**: 2978
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 1 | 2 | 2 | 2 | 5 | 4 |
-| last60d | 2026-07-30 | 1 | 2 | 3 | 2 | 6 | 4 |
-| 90d | 2026-06-30 | 1 | 6 | 3 | 6 | 7 | 19 |
-| last180d | 2026-04-01 | 1 | 7 | 5 | 7 | 7 | 20 |
-| 360d | 2025-10-03 | 3 | 24 | 9 | 23 | 12 | 119 |
-| last720d | 2024-10-08 | 6 | 93 | 9 | 100 | 13 | 558 |
+| 30d | 2026-08-30 | 1 | 3 | 1 | 3 | 5 | 6 |
+| last60d | 2026-07-31 | 1 | 3 | 2 | 3 | 6 | 6 |
+| 90d | 2026-07-01 | 1 | 7 | 2 | 7 | 7 | 21 |
+| last180d | 2026-04-02 | 1 | 8 | 4 | 8 | 7 | 22 |
+| 360d | 2025-10-04 | 3 | 25 | 8 | 24 | 12 | 121 |
+| last720d | 2024-10-09 | 6 | 94 | 8 | 100 | 13 | 562 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for easy-rsa lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T06:23:08Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T06:45:46Z._
