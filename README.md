@@ -50,18 +50,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 489 · **Open PRs**: 8 · **Closed issues**: 700 · **Open issues**: 17 · **Commits**: 2978
+- **Releases**: 30 · **Merged PRs**: 489 · **Open PRs**: 9 · **Closed issues**: 700 · **Open issues**: 17 · **Commits**: 2978
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 1 | 3 | 1 | 3 | 5 | 6 |
-| last60d | 2026-07-31 | 1 | 3 | 2 | 3 | 6 | 6 |
-| 90d | 2026-07-01 | 1 | 7 | 2 | 7 | 7 | 21 |
-| last180d | 2026-04-02 | 1 | 8 | 4 | 8 | 7 | 22 |
-| 360d | 2025-10-04 | 3 | 25 | 8 | 24 | 12 | 121 |
-| last720d | 2024-10-09 | 6 | 94 | 8 | 100 | 13 | 562 |
+| 30d | 2026-08-31 | 1 | 3 | 2 | 3 | 5 | 6 |
+| last60d | 2026-08-01 | 1 | 3 | 3 | 3 | 5 | 6 |
+| 90d | 2026-07-02 | 1 | 7 | 3 | 7 | 7 | 21 |
+| last180d | 2026-04-03 | 1 | 8 | 5 | 8 | 7 | 22 |
+| 360d | 2025-10-05 | 3 | 25 | 9 | 24 | 12 | 121 |
+| last720d | 2024-10-10 | 6 | 94 | 9 | 100 | 13 | 562 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for easy-rsa lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:45:46Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:38:52Z._
