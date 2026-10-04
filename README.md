@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 1 | 4 | 2 | 4 | 3 | 8 |
-| last60d | 2026-08-04 | 1 | 4 | 3 | 4 | 5 | 8 |
-| 90d | 2026-07-05 | 1 | 8 | 3 | 8 | 7 | 23 |
-| last180d | 2026-04-06 | 1 | 9 | 5 | 9 | 7 | 24 |
-| 360d | 2025-10-08 | 3 | 25 | 9 | 24 | 12 | 123 |
-| last720d | 2024-10-13 | 6 | 94 | 9 | 101 | 13 | 563 |
+| 30d | 2026-09-04 | 1 | 4 | 2 | 4 | 3 | 8 |
+| last60d | 2026-08-05 | 1 | 4 | 3 | 4 | 5 | 8 |
+| 90d | 2026-07-06 | 1 | 8 | 3 | 8 | 7 | 23 |
+| last180d | 2026-04-07 | 1 | 9 | 5 | 9 | 7 | 24 |
+| 360d | 2025-10-09 | 3 | 24 | 9 | 24 | 12 | 123 |
+| last720d | 2024-10-14 | 6 | 94 | 9 | 100 | 13 | 561 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for easy-rsa lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T06:20:21Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:49:51Z._
