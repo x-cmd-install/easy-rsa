@@ -18,7 +18,7 @@ x install easy-rsa
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Sh | 6,274 | 1,429 | 979 | 6 |
+| Sh | 6,274 | 1,432 | 979 | 6 |
 | Batch | 30 | 3 | 6 | 2 |
 | Markdown | 0 | 1,017 | 418 | 12 |
 | Text | 0 | 591 | 135 | 4 |
@@ -29,9 +29,9 @@ x install easy-rsa
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Code-Review** (0/10) — Found 1/11 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/14 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -41,7 +41,7 @@ x install easy-rsa
 ## 发布
 
 - **最新版本**: `v3.2.7` (2026-09-19)
-- **最近提交**: 2026-10-04
+- **最近提交**: 2026-10-05
 - **Release 含资产**: 6 个
 
 ## 流行度
@@ -50,18 +50,18 @@ x install easy-rsa
 
 ## 累计统计
 
-- **发布数**: 30 · **已合并 PR**: 492 · **开放 PR**: 8 · **已关闭 issue**: 703 · **开放 issue**: 15 · **提交数**: 2989
+- **发布数**: 30 · **已合并 PR**: 492 · **开放 PR**: 9 · **已关闭 issue**: 704 · **开放 issue**: 14 · **提交数**: 2990
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 1 | 6 | 1 | 6 | 1 | 11 |
-| last60d | 2026-08-06 | 1 | 6 | 2 | 6 | 3 | 11 |
-| 90d | 2026-07-07 | 1 | 10 | 2 | 10 | 5 | 26 |
-| last180d | 2026-04-08 | 1 | 11 | 4 | 11 | 5 | 27 |
-| 360d | 2025-10-10 | 3 | 26 | 8 | 26 | 10 | 119 |
-| last720d | 2024-10-15 | 6 | 95 | 8 | 102 | 11 | 568 |
+| 30d | 2026-09-06 | 1 | 6 | 2 | 6 | 1 | 12 |
+| last60d | 2026-08-07 | 1 | 6 | 3 | 7 | 2 | 12 |
+| 90d | 2026-07-08 | 1 | 10 | 3 | 11 | 4 | 27 |
+| last180d | 2026-04-09 | 1 | 11 | 5 | 12 | 4 | 28 |
+| 360d | 2025-10-11 | 3 | 26 | 9 | 27 | 9 | 120 |
+| last720d | 2024-10-16 | 6 | 95 | 9 | 103 | 10 | 565 |
 
 ## Release 资产
 
@@ -83,4 +83,4 @@ easy-rsa 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261005.yml` · 2026-10-05T06:34:05Z._
+_数据快照: `data/card/261006.yml` · 2026-10-06T07:26:45Z._

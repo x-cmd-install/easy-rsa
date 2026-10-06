@@ -18,7 +18,7 @@ Total: **6,304** lines of code across **24** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Sh | 6,274 | 1,429 | 979 | 6 |
+| Sh | 6,274 | 1,432 | 979 | 6 |
 | Batch | 30 | 3 | 6 | 2 |
 | Markdown | 0 | 1,017 | 418 | 12 |
 | Text | 0 | 591 | 135 | 4 |
@@ -29,9 +29,9 @@ Overall score: **3.4 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Code-Review** (0/10) — Found 1/11 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/14 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -41,7 +41,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.2.7` (2026-09-19)
-- **Last commit**: 2026-10-04
+- **Last commit**: 2026-10-05
 - **Assets in release**: 6
 
 ## Popularity
@@ -50,18 +50,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 492 · **Open PRs**: 8 · **Closed issues**: 703 · **Open issues**: 15 · **Commits**: 2989
+- **Releases**: 30 · **Merged PRs**: 492 · **Open PRs**: 9 · **Closed issues**: 704 · **Open issues**: 14 · **Commits**: 2990
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 1 | 6 | 1 | 6 | 1 | 11 |
-| last60d | 2026-08-06 | 1 | 6 | 2 | 6 | 3 | 11 |
-| 90d | 2026-07-07 | 1 | 10 | 2 | 10 | 5 | 26 |
-| last180d | 2026-04-08 | 1 | 11 | 4 | 11 | 5 | 27 |
-| 360d | 2025-10-10 | 3 | 26 | 8 | 26 | 10 | 119 |
-| last720d | 2024-10-15 | 6 | 95 | 8 | 102 | 11 | 568 |
+| 30d | 2026-09-06 | 1 | 6 | 2 | 6 | 1 | 12 |
+| last60d | 2026-08-07 | 1 | 6 | 3 | 7 | 2 | 12 |
+| 90d | 2026-07-08 | 1 | 10 | 3 | 11 | 4 | 27 |
+| last180d | 2026-04-09 | 1 | 11 | 5 | 12 | 4 | 28 |
+| 360d | 2025-10-11 | 3 | 26 | 9 | 27 | 9 | 120 |
+| last720d | 2024-10-16 | 6 | 95 | 9 | 103 | 10 | 565 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for easy-rsa lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T06:34:05Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T07:26:45Z._
