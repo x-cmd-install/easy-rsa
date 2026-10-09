@@ -14,11 +14,11 @@ x install easy-rsa
 
 ## Code insight
 
-Total: **6,304** lines of code across **24** files in the top 5 languages.
+Total: **6,299** lines of code across **24** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Sh | 6,274 | 1,432 | 979 | 6 |
+| Sh | 6,269 | 1,430 | 978 | 6 |
 | Batch | 30 | 3 | 6 | 2 |
 | Markdown | 0 | 1,017 | 418 | 12 |
 | Text | 0 | 591 | 135 | 4 |
@@ -41,7 +41,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.2.7` (2026-09-19)
-- **Last commit**: 2026-10-05
+- **Last commit**: 2026-10-08
 - **Assets in release**: 6
 
 ## Popularity
@@ -50,18 +50,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 492 · **Open PRs**: 10 · **Closed issues**: 704 · **Open issues**: 16 · **Commits**: 2990
+- **Releases**: 30 · **Merged PRs**: 493 · **Open PRs**: 9 · **Closed issues**: 704 · **Open issues**: 16 · **Commits**: 2993
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 1 | 6 | 3 | 5 | 3 | 12 |
-| last60d | 2026-08-09 | 1 | 6 | 4 | 7 | 4 | 12 |
-| 90d | 2026-07-10 | 1 | 10 | 4 | 11 | 6 | 27 |
-| last180d | 2026-04-11 | 1 | 11 | 4 | 12 | 6 | 28 |
-| 360d | 2025-10-13 | 3 | 26 | 10 | 27 | 11 | 120 |
-| last720d | 2024-10-18 | 6 | 95 | 10 | 102 | 12 | 565 |
+| 30d | 2026-09-09 | 1 | 7 | 2 | 5 | 3 | 13 |
+| last60d | 2026-08-10 | 1 | 7 | 3 | 7 | 4 | 13 |
+| 90d | 2026-07-11 | 1 | 11 | 3 | 11 | 6 | 28 |
+| last180d | 2026-04-12 | 1 | 12 | 3 | 12 | 6 | 29 |
+| 360d | 2025-10-14 | 3 | 27 | 9 | 26 | 11 | 121 |
+| last720d | 2024-10-19 | 6 | 96 | 9 | 102 | 12 | 568 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for easy-rsa lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T07:17:13Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T07:07:11Z._
