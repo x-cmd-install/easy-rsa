@@ -1,75 +1,3 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.7
-  origversion: 3.2.7-1
-  status: newest
-  maintainers:
-    - lq27267@gmail.com
-  categories:
-    - misc
-- repo: homebrew
-  srcname: easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.7
-  origversion: null
-  status: newest
-  summary: CLI utility to build and manage a PKI CA
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.2
-  origversion: 3.2.2-1
-  status: outdated
-  maintainers:
-    - lq27267@gmail.com
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.1.0
-  origversion: 3.1.0-1
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.2
-  origversion: 3.2.2-1
-  status: outdated
-  maintainers:
-    - lq27267@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.7
-  origversion: 3.2.7-1
-  status: newest
-  maintainers:
-    - lq27267@gmail.com
-  categories:
-    - misc
 - repo: homebrew
   srcname: easy-rsa
   visiblename: easy-rsa
@@ -90,17 +18,30 @@
     - lq27267@gmail.com
   categories:
     - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: easy-rsa
   binnames:
     - easy-rsa
   visiblename: easy-rsa
-  version: 3.0.8
-  origversion: 3.0.8-1
+  version: 3.2.2
+  origversion: 3.2.2-1
   status: outdated
   maintainers:
-    - michele.orru@ens.psl.eu
+    - lq27267@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.2
+  origversion: 3.2.2-1
+  status: outdated
+  maintainers:
+    - lq27267@gmail.com
   categories:
     - misc
 - repo: alpine_3_17
@@ -220,6 +161,19 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-only
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.7
+  origversion: 3.2.7-1
+  status: newest
+  maintainers:
+    - lq27267@gmail.com
+  categories:
+    - misc
 - repo: alpine_3_21
   subrepo: community
   srcname: easy-rsa
@@ -231,6 +185,17 @@
   summary: Simple shell based CA utility (documentation)
   maintainers:
     - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-only
+- repo: arch
+  subrepo: extra
+  srcname: easy-rsa
+  binname: easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.7
+  origversion: 3.2.7-1
+  status: newest
+  summary: Simple shell based CA utility
   licenses:
     - GPL-2.0-only
 - repo: alpine_3_22
@@ -379,17 +344,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - admin
-- repo: arch
-  subrepo: extra
-  srcname: easy-rsa
-  binname: easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.7
-  origversion: 3.2.7-1
-  status: newest
-  summary: Simple shell based CA utility
-  licenses:
-    - GPL-2.0-only
 - repo: aur
   srcname: easy-rsa-git
   binname: easy-rsa-git
@@ -514,17 +468,19 @@
     - lq27267@gmail.com
   categories:
     - misc
-- repo: epel_6
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: easy-rsa
+  binnames:
+    - easy-rsa
   visiblename: easy-rsa
   version: 3.0.8
-  origversion: 3.0.8-1.el6
+  origversion: 3.0.8-1
   status: outdated
-  summary: Simple shell based CA utility
-  licenses:
-    - GPLv2
+  maintainers:
+    - michele.orru@ens.psl.eu
   categories:
-    - Unspecified
+    - misc
 - repo: epel_7
   srcname: easy-rsa
   visiblename: easy-rsa
@@ -536,17 +492,6 @@
     - GPLv2
   categories:
     - Unspecified
-- repo: openindiana
-  subrepo: hipster
-  srcname: easy-rsa
-  binname: network/openvpn/easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.6
-  origversion: null
-  status: outdated
-  summary: Simple shell based CA utility
-  categories:
-    - Applications/System Utilities
 - repo: epel_8
   srcname: easy-rsa
   visiblename: easy-rsa
@@ -613,20 +558,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.2
-  origversion: 3.2.2-1.fc40
-  status: outdated
-  summary: Simple shell based CA utility
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: easy-rsa
   binnames:
@@ -640,15 +571,15 @@
     - GPL-2.0-only
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: release
+- repo: fedora_40
+  subrepo: updates
   srcname: easy-rsa
   binnames:
     - easy-rsa
   visiblename: easy-rsa
-  version: 3.2.1
-  origversion: 3.2.1-1.fc41
-  status: legacy
+  version: 3.2.2
+  origversion: 3.2.2-1.fc40
+  status: outdated
   summary: Simple shell based CA utility
   licenses:
     - GPL-2.0-only
@@ -663,6 +594,20 @@
   version: 3.2.4
   origversion: 3.2.4-1.fc41
   status: outdated
+  summary: Simple shell based CA utility
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.1
+  origversion: 3.2.1-1.fc41
+  status: legacy
   summary: Simple shell based CA utility
   licenses:
     - GPL-2.0-only
@@ -697,36 +642,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.4
-  origversion: 3.2.4-1.fc43
-  status: legacy
-  summary: Simple shell based CA utility
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: openmamba
-  subrepo: base
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.7
-  origversion: 3.2.7-1mamba
-  status: newest
-  summary: Simple shell based CA utility
-  maintainers:
-    - silvan@openmamba.org
-  licenses:
-    - GPL
-  categories:
-    - Network/Security
-- repo: fedora_43
   subrepo: updates
   srcname: easy-rsa
   binnames:
@@ -740,15 +655,15 @@
     - GPL-2.0-only
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: updates
+- repo: fedora_43
+  subrepo: release
   srcname: easy-rsa
   binnames:
     - easy-rsa
   visiblename: easy-rsa
-  version: 3.2.7
-  origversion: 3.2.7-1.fc44
-  status: newest
+  version: 3.2.4
+  origversion: 3.2.4-1.fc43
+  status: legacy
   summary: Simple shell based CA utility
   licenses:
     - GPL-2.0-only
@@ -763,6 +678,32 @@
   version: 3.2.6
   origversion: 3.2.6-1.fc44
   status: legacy
+  summary: Simple shell based CA utility
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: easy-rsa
+  visiblename: easy-rsa
+  version: 3.1.2
+  origversion: 3.1.2-bp155.1.4
+  status: outdated
+  summary: CLI utility to build and manage a PKI CA
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Productivity/Networking/Security
+- repo: fedora_44
+  subrepo: updates
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.7
+  origversion: 3.2.7-1.fc44
+  status: newest
   summary: Simple shell based CA utility
   licenses:
     - GPL-2.0-only
@@ -833,6 +774,13 @@
     - GPL-2
   categories:
     - app-crypt
+- repo: homebrew
+  srcname: easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.7
+  origversion: null
+  status: newest
+  summary: CLI utility to build and manage a PKI CA
 - repo: liguros_stable
   srcname: app-crypt/easy-rsa
   visiblename: app-crypt/easy-rsa
@@ -1043,6 +991,33 @@
     - ports@openbsd.org
   categories:
     - security
+- repo: openindiana
+  subrepo: hipster
+  srcname: easy-rsa
+  binname: network/openvpn/easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.6
+  origversion: null
+  status: outdated
+  summary: Simple shell based CA utility
+  categories:
+    - Applications/System Utilities
+- repo: openmamba
+  subrepo: base
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.7
+  origversion: 3.2.7-1mamba
+  status: newest
+  summary: Simple shell based CA utility
+  maintainers:
+    - silvan@openmamba.org
+  licenses:
+    - GPL
+  categories:
+    - Network/Security
 - repo: openmamba
   subrepo: base
   srcname: easy-rsa2
@@ -1059,18 +1034,6 @@
     - GPL
   categories:
     - Network/Security
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: easy-rsa
-  visiblename: easy-rsa
-  version: 3.1.2
-  origversion: 3.1.2-bp155.1.4
-  status: outdated
-  summary: CLI utility to build and manage a PKI CA
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Productivity/Networking/Security
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: easy-rsa
@@ -1143,32 +1106,6 @@
   status: outdated
   maintainers:
     - michele.orru@ens.psl.eu
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.2
-  origversion: 3.2.2-1
-  status: outdated
-  maintainers:
-    - lq27267@gmail.com
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.2
-  origversion: 3.2.2-1
-  status: outdated
-  maintainers:
-    - lq27267@gmail.com
   categories:
     - misc
 - repo: pkgsrc_2026_2
@@ -1247,6 +1184,58 @@
     - michele.orru@ens.psl.eu
   categories:
     - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.2
+  origversion: 3.2.2-1
+  status: outdated
+  maintainers:
+    - lq27267@gmail.com
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.1.0
+  origversion: 3.1.0-1
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.2
+  origversion: 3.2.2-1
+  status: outdated
+  maintainers:
+    - lq27267@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.7
+  origversion: 3.2.7-1
+  status: newest
+  maintainers:
+    - lq27267@gmail.com
+  categories:
+    - misc
 - repo: ravenports
   srcname: easy-rsa
   binname: easy-rsa
