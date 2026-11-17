@@ -29,9 +29,9 @@ x install easy-rsa
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 0/19 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (0/10) — Found 0/19 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -46,7 +46,7 @@ x install easy-rsa
 
 ## 流行度
 
-- **Star**: 4,490 · **Fork**: 1,230 · **开放 issue**: 722 · **贡献者**: 66
+- **Star**: 4,492 · **Fork**: 1,231 · **开放 issue**: 722 · **贡献者**: 66
 
 ## 累计统计
 
@@ -56,12 +56,12 @@ x install easy-rsa
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-09-17 | 1 | 7 | 1 | 4 | 4 | 13 |
-| 90d | 2026-08-18 | 1 | 8 | 3 | 8 | 5 | 15 |
-| last180d | 2026-05-20 | 1 | 13 | 3 | 12 | 7 | 31 |
-| 360d | 2025-11-21 | 3 | 23 | 9 | 25 | 12 | 84 |
-| last720d | 2024-11-26 | 6 | 91 | 9 | 96 | 13 | 543 |
+| 30d | 2026-10-18 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-18 | 1 | 7 | 1 | 4 | 4 | 13 |
+| 90d | 2026-08-19 | 1 | 8 | 3 | 8 | 5 | 15 |
+| last180d | 2026-05-21 | 1 | 13 | 3 | 12 | 7 | 31 |
+| 360d | 2025-11-22 | 3 | 23 | 9 | 25 | 12 | 84 |
+| last720d | 2024-11-27 | 6 | 91 | 9 | 96 | 13 | 541 |
 
 ## Release 资产
 
@@ -74,25 +74,6 @@ x install easy-rsa
 | [EasyRSA-3.2.7.tgz](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.7/EasyRSA-3.2.7.tgz) | 91.9 KiB | `native/unknown` |
 | [EasyRSA-3.2.7.tgz.sig](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.7/EasyRSA-3.2.7.tgz.sig) | 310 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/easy-rsa) 上共有 **112** 个发行版报告此项目。**26** 个 ✅ 已是最新上游版本，**72** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.2.7` | ✅ latest |
-| Debian 14 | `3.2.7` | ✅ latest |
-| Debian 13 | `3.2.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.2.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.1.7` | ⚠️ outdated |
-| Arch | `3.2.7` | ✅ latest |
-| Homebrew | `3.2.7` | ✅ latest |
-| Fedora rawhide | `3.2.7` | ✅ latest |
-| Nix unstable | `3.2.7` | ✅ latest |
-| Void | `3.2.4` | ⚠️ outdated |
-| Alpine edge | `3.2.5` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.2.7` | ✅ latest |
-
 ## 改进这些数据
 
 easy-rsa 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `easy-rsa` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -102,4 +83,4 @@ easy-rsa 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T08:16:42Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T10:22:20Z._

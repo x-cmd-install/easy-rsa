@@ -29,9 +29,9 @@ Overall score: **3.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/19 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (0/10) — Found 0/19 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,490 · **Forks**: 1,230 · **Open issues**: 722 · **Contributors**: 66
+- **Stars**: 4,492 · **Forks**: 1,231 · **Open issues**: 722 · **Contributors**: 66
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-09-17 | 1 | 7 | 1 | 4 | 4 | 13 |
-| 90d | 2026-08-18 | 1 | 8 | 3 | 8 | 5 | 15 |
-| last180d | 2026-05-20 | 1 | 13 | 3 | 12 | 7 | 31 |
-| 360d | 2025-11-21 | 3 | 23 | 9 | 25 | 12 | 84 |
-| last720d | 2024-11-26 | 6 | 91 | 9 | 96 | 13 | 543 |
+| 30d | 2026-10-18 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-18 | 1 | 7 | 1 | 4 | 4 | 13 |
+| 90d | 2026-08-19 | 1 | 8 | 3 | 8 | 5 | 15 |
+| last180d | 2026-05-21 | 1 | 13 | 3 | 12 | 7 | 31 |
+| 360d | 2025-11-22 | 3 | 23 | 9 | 25 | 12 | 84 |
+| last720d | 2024-11-27 | 6 | 91 | 9 | 96 | 13 | 541 |
 
 ## Release assets
 
@@ -74,25 +74,6 @@ Lowest-scoring checks:
 | [EasyRSA-3.2.7.tgz](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.7/EasyRSA-3.2.7.tgz) | 91.9 KiB | `native/unknown` |
 | [EasyRSA-3.2.7.tgz.sig](https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.7/EasyRSA-3.2.7.tgz.sig) | 310 B | `other` |
 
-## Distribution status
-
-Reported by **112** distros on [repology.org](https://repology.org/project/easy-rsa). **26** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.2.7` | ✅ latest |
-| Debian 14 | `3.2.7` | ✅ latest |
-| Debian 13 | `3.2.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.2.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.1.7` | ⚠️ outdated |
-| Arch | `3.2.7` | ✅ latest |
-| Homebrew | `3.2.7` | ✅ latest |
-| Fedora rawhide | `3.2.7` | ✅ latest |
-| Nix unstable | `3.2.7` | ✅ latest |
-| Void | `3.2.4` | ⚠️ outdated |
-| Alpine edge | `3.2.5` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.2.7` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for easy-rsa lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `easy-rsa` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -102,4 +83,4 @@ Install metadata for easy-rsa lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:16:41Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T10:22:20Z._
