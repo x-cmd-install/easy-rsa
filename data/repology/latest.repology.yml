@@ -1,54 +1,39 @@
-- repo: raspbian_stable
-  subrepo: main
+- repo: manjaro_stable
+  subrepo: extra
   srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.2
-  origversion: 3.2.2-1
-  status: outdated
-  maintainers:
-    - lq27267@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
+  binname: easy-rsa
   visiblename: easy-rsa
   version: 3.2.7
   origversion: 3.2.7-1
   status: newest
-  maintainers:
-    - lq27267@gmail.com
-  categories:
-    - misc
-- repo: mx_23
-  subrepo: ahs
+  summary: Simple shell based CA utility
+  licenses:
+    - GPL-2.0-only
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: easy-rsa
+  binname: easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.7
+  origversion: 3.2.7-1
+  status: newest
+  summary: Simple shell based CA utility
+  licenses:
+    - GPL-2.0-only
+- repo: fedora_40
+  subrepo: release
   srcname: easy-rsa
   binnames:
     - easy-rsa
   visiblename: easy-rsa
-  version: 3.2.2
-  origversion: 3.2.2-1~mx23+1
-  status: outdated
-  maintainers:
-    - stevep@mxlinux.org
+  version: 3.1.7
+  origversion: 3.1.7-3.fc40
+  status: legacy
+  summary: Simple shell based CA utility
+  licenses:
+    - GPL-2.0-only
   categories:
-    - utils
-- repo: mx_23_testing
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.2
-  origversion: 3.2.2-1~mx23+1
-  status: outdated
-  maintainers:
-    - stevep@mxlinux.org
-  categories:
-    - utils
+    - Unspecified
 - repo: alpine_3_17
   subrepo: community
   srcname: easy-rsa
@@ -86,6 +71,17 @@
   summary: Simple shell based CA utility
   maintainers:
     - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-only
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: easy-rsa
+  binname: easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.7
+  origversion: 3.2.7-1
+  status: newest
+  summary: Simple shell based CA utility
   licenses:
     - GPL-2.0-only
 - repo: alpine_3_18
@@ -218,6 +214,19 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-only
+- repo: mx_23
+  subrepo: ahs
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.2
+  origversion: 3.2.2-1~mx23+1
+  status: outdated
+  maintainers:
+    - stevep@mxlinux.org
+  categories:
+    - utils
 - repo: alpine_3_23
   subrepo: community
   srcname: easy-rsa
@@ -298,18 +307,6 @@
     - GPLv2
   categories:
     - Security/Networking
-- repo: openbsd
-  srcname: security/easy-rsa
-  binname: easy-rsa
-  visiblename: security/easy-rsa
-  version: 3.2.7
-  origversion: null
-  status: newest
-  summary: small RSA key management package
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - security
 - repo: altsisyphus
   srcname: easy-rsa
   binnames:
@@ -448,17 +445,6 @@
     - lq27267@gmail.com
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.0.6
-  origversion: 3.0.6-1
-  status: outdated
-  maintainers:
-    - michele.orru@ens.fr
 - repo: deepin_25
   subrepo: community
   srcname: easy-rsa
@@ -498,17 +484,6 @@
     - lq27267@gmail.com
   categories:
     - misc
-- repo: openindiana
-  subrepo: hipster
-  srcname: easy-rsa
-  binname: network/openvpn/easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.6
-  origversion: null
-  status: outdated
-  summary: Simple shell based CA utility
-  categories:
-    - Applications/System Utilities
 - repo: epel_7
   srcname: easy-rsa
   visiblename: easy-rsa
@@ -585,6 +560,31 @@
     - GPL-2.0-only
   categories:
     - Unspecified
+- repo: mx_23_testing
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.2
+  origversion: 3.2.2-1~mx23+1
+  status: outdated
+  maintainers:
+    - stevep@mxlinux.org
+  categories:
+    - utils
+- repo: raspbian_testing
+  subrepo: main
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.7
+  origversion: 3.2.7-1
+  status: newest
+  maintainers:
+    - lq27267@gmail.com
+  categories:
+    - misc
 - repo: fedora_40
   subrepo: updates
   srcname: easy-rsa
@@ -594,20 +594,6 @@
   version: 3.2.2
   origversion: 3.2.2-1.fc40
   status: outdated
-  summary: Simple shell based CA utility
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: release
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.1.7
-  origversion: 3.1.7-3.fc40
-  status: legacy
   summary: Simple shell based CA utility
   licenses:
     - GPL-2.0-only
@@ -670,20 +656,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.7
-  origversion: 3.2.7-1.fc43
-  status: newest
-  summary: Simple shell based CA utility
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: easy-rsa
   binnames:
@@ -692,6 +664,20 @@
   version: 3.2.4
   origversion: 3.2.4-1.fc43
   status: legacy
+  summary: Simple shell based CA utility
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.7
+  origversion: 3.2.7-1.fc43
+  status: newest
   summary: Simple shell based CA utility
   licenses:
     - GPL-2.0-only
@@ -753,6 +739,18 @@
     - GPL-2.0-only
   categories:
     - Unspecified
+- repo: nix_stable_24_05
+  srcname: easyrsa
+  visiblename: easyrsa
+  version: 3.2.1
+  origversion: null
+  status: outdated
+  summary: Simple shell based CA utility
+  maintainers:
+    - jaka@x-truder.net
+    - me@numin.it
+  licenses:
+    - GPL-2.0-only
 - repo: freebsd
   srcname: security/easy-rsa
   binname: easy-rsa
@@ -831,19 +829,6 @@
     - lq27267@gmail.com
   categories:
     - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: easy-rsa
-  binnames:
-    - easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.2
-  origversion: 3.2.2-1
-  status: outdated
-  maintainers:
-    - lq27267@gmail.com
-  categories:
-    - utils
 - repo: liguros_stable
   srcname: app-crypt/easy-rsa
   visiblename: app-crypt/easy-rsa
@@ -914,51 +899,6 @@
     - GPL-2
   categories:
     - security
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: easy-rsa
-  binname: easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.7
-  origversion: 3.2.7-1
-  status: newest
-  summary: Simple shell based CA utility
-  licenses:
-    - GPL-2.0-only
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: easy-rsa
-  binname: easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.7
-  origversion: 3.2.7-1
-  status: newest
-  summary: Simple shell based CA utility
-  licenses:
-    - GPL-2.0-only
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: easy-rsa
-  binname: easy-rsa
-  visiblename: easy-rsa
-  version: 3.2.7
-  origversion: 3.2.7-1
-  status: newest
-  summary: Simple shell based CA utility
-  licenses:
-    - GPL-2.0-only
-- repo: nix_stable_24_05
-  srcname: easyrsa
-  visiblename: easyrsa
-  version: 3.2.1
-  origversion: null
-  status: outdated
-  summary: Simple shell based CA utility
-  maintainers:
-    - jaka@x-truder.net
-    - me@numin.it
-  licenses:
-    - GPL-2.0-only
 - repo: nix_stable_24_11
   srcname: easyrsa
   visiblename: easyrsa
@@ -1017,6 +957,29 @@
     - me+nixpkgs@numin.it
   licenses:
     - GPL-2.0-only
+- repo: openbsd
+  srcname: security/easy-rsa
+  binname: easy-rsa
+  visiblename: security/easy-rsa
+  version: 3.2.7
+  origversion: null
+  status: newest
+  summary: small RSA key management package
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - security
+- repo: openindiana
+  subrepo: hipster
+  srcname: easy-rsa
+  binname: network/openvpn/easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.6
+  origversion: null
+  status: outdated
+  summary: Simple shell based CA utility
+  categories:
+    - Applications/System Utilities
 - repo: openmamba
   subrepo: base
   srcname: easy-rsa
@@ -1120,7 +1083,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: easy-rsa
   binnames:
     - easy-rsa
@@ -1133,7 +1096,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: easy-rsa
   binnames:
     - easy-rsa
@@ -1221,6 +1184,19 @@
     - michele.orru@ens.psl.eu
   categories:
     - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.2
+  origversion: 3.2.2-1
+  status: outdated
+  maintainers:
+    - lq27267@gmail.com
+  categories:
+    - utils
 - repo: raspbian_oldstable
   subrepo: main
   srcname: easy-rsa
@@ -1232,6 +1208,19 @@
   status: outdated
   maintainers:
     - packages@qa.debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: easy-rsa
+  binnames:
+    - easy-rsa
+  visiblename: easy-rsa
+  version: 3.2.2
+  origversion: 3.2.2-1
+  status: outdated
+  maintainers:
+    - lq27267@gmail.com
   categories:
     - misc
 - repo: ravenports
