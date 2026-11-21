@@ -41,27 +41,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.2.7` (2026-09-19)
-- **Last commit**: 2026-10-18
+- **Last commit**: 2026-11-20
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 4,492 · **Forks**: 1,230 · **Open issues**: 723 · **Contributors**: 66
+- **Stars**: 4,492 · **Forks**: 1,230 · **Open issues**: 723 · **Contributors**: 69
 
 ## Totals (cumulative)
 
-- **Releases**: 30 · **Merged PRs**: 494 · **Open PRs**: 10 · **Closed issues**: 705 · **Open issues**: 18 · **Commits**: 2997
+- **Releases**: 30 · **Merged PRs**: 497 · **Open PRs**: 7 · **Closed issues**: 707 · **Open issues**: 16 · **Commits**: 3007
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 1 | 0 | 2 | 0 |
-| last60d | 2026-09-21 | 0 | 7 | 2 | 4 | 5 | 13 |
-| 90d | 2026-08-22 | 1 | 8 | 4 | 8 | 6 | 15 |
-| last180d | 2026-05-24 | 1 | 13 | 4 | 12 | 8 | 31 |
-| 360d | 2025-11-25 | 3 | 23 | 10 | 25 | 13 | 84 |
-| last720d | 2024-11-30 | 6 | 89 | 10 | 93 | 14 | 534 |
+| 30d | 2026-10-22 | 0 | 1 | 0 | 1 | 1 | 0 |
+| last60d | 2026-09-22 | 0 | 9 | 0 | 6 | 3 | 0 |
+| 90d | 2026-08-23 | 1 | 11 | 1 | 10 | 4 | 0 |
+| last180d | 2026-05-25 | 1 | 16 | 1 | 14 | 6 | 0 |
+| 360d | 2025-11-26 | 3 | 26 | 7 | 26 | 11 | 0 |
+| last720d | 2024-12-01 | 6 | 91 | 7 | 93 | 12 | 543 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **113** distros on [repology.org](https://repology.org/project/easy-rsa). **27** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
+Reported by **112** distros on [repology.org](https://repology.org/project/easy-rsa). **27** are ✅ on the latest upstream release, **71** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -102,4 +102,4 @@ Install metadata for easy-rsa lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T10:17:52Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:10:47Z._
