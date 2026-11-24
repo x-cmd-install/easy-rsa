@@ -25,13 +25,13 @@ x install easy-rsa
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.4 / 10**
+总评分: **3.5 / 10**
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (1/10) — Found 3/21 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Code-Review** (0/10) — Found 0/19 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
 
@@ -46,22 +46,22 @@ x install easy-rsa
 
 ## 流行度
 
-- **Star**: 4,493 · **Fork**: 1,229 · **开放 issue**: 723 · **贡献者**: 69
+- **Star**: 4,493 · **Fork**: 1,230 · **开放 issue**: 723 · **贡献者**: 69
 
 ## 累计统计
 
-- **发布数**: 30 · **已合并 PR**: 498 · **开放 PR**: 8 · **已关闭 issue**: 708 · **开放 issue**: 15 · **提交数**: 3010
+- **发布数**: 30 · **已合并 PR**: 498 · **开放 PR**: 9 · **已关闭 issue**: 708 · **开放 issue**: 15 · **提交数**: 3010
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 2 | 1 | 0 | 1 | 3 |
-| last60d | 2026-09-24 | 0 | 10 | 1 | 7 | 2 | 12 |
-| 90d | 2026-08-25 | 1 | 12 | 2 | 11 | 3 | 19 |
-| last180d | 2026-05-27 | 1 | 17 | 2 | 15 | 5 | 36 |
-| 360d | 2025-11-28 | 3 | 26 | 8 | 26 | 10 | 83 |
-| last720d | 2024-12-03 | 6 | 90 | 8 | 92 | 11 | 539 |
+| 30d | 2026-10-25 | 0 | 2 | 2 | 0 | 1 | 3 |
+| last60d | 2026-09-25 | 0 | 10 | 2 | 7 | 2 | 12 |
+| 90d | 2026-08-26 | 1 | 12 | 3 | 11 | 3 | 19 |
+| last180d | 2026-05-28 | 1 | 17 | 3 | 15 | 5 | 36 |
+| 360d | 2025-11-29 | 3 | 26 | 9 | 26 | 10 | 83 |
+| last720d | 2024-12-04 | 6 | 89 | 9 | 90 | 11 | 528 |
 
 ## Release 资产
 
@@ -102,4 +102,4 @@ easy-rsa 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T09:53:02Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T11:40:02Z._
